@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "name": "@markjameshoward/say-hi",
+  "version": "0.0.7",
+  "main": "./bin/index.js",
+  "bin": {
+    "say-hi2": "./bin/index.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
