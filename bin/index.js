@@ -6,7 +6,7 @@ let SayHiPlugin = {
     GetHi: () => SayHiStandard(),
 };
 try {
-    SayHiPlugin = await import("say-hi-plugin");
+    SayHiPlugin = await import("@markjameshoward/say-hi-plugin");
 }
 catch (e) {
     console.log("no plugins found - using builtin");
