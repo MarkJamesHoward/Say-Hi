@@ -3,7 +3,7 @@
     "typescript": "^4.9.5"
   },
   "name": "@markjameshoward/say-hi",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "main": "./bin/index.js",
   "bin": {
     "say-hi2": "./bin/index.js"
