@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 interface IPluginCommand {
-  Execute(): string;
+  GetHi(): string;
 }
 
 function SayHiStandard() {
@@ -9,7 +9,7 @@ function SayHiStandard() {
 }
 
 let SayHiPlugin: IPluginCommand = {
-  Execute: () => SayHiStandard(),
+  GetHi: () => SayHiStandard(),
 };
 
 try {
@@ -18,6 +18,6 @@ try {
   console.log("no plugins found - using builtin");
 }
 
-console.log(SayHiPlugin.Execute());
+console.log(SayHiPlugin.GetHi());
 
 export {};
