@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-
+const plugin = "@markjameshoward/say-hi-plugin";
 interface IPluginCommand {
   GetHi(): string;
 }
@@ -13,7 +13,7 @@ let SayHiPlugin: IPluginCommand = {
 };
 
 try {
-  SayHiPlugin = await import("@markjameshoward/say-hi-plugin");
+  SayHiPlugin = await import(plugin);
 } catch (e) {
   console.log("no plugins found - using builtin");
 }
