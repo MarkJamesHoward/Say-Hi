@@ -1,9 +1,6 @@
 {
-  "devDependencies": {
-    "typescript": "^4.9.5"
-  },
   "name": "@markjameshoward/say-hi",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "main": "./bin/index.js",
   "bin": {
     "say-hi": "./bin/index.js"
