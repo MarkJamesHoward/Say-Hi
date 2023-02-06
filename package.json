@@ -1,6 +1,6 @@
 {
   "name": "@markjameshoward/say-hi",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "main": "./bin/index.js",
   "bin": {
     "say-hi": "./bin/index.js"
